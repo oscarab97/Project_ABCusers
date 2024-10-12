@@ -1,0 +1,27 @@
+<div>
+    <div class="container text-center" style="margin: 30px;">
+        <h2>Register New User</h2>
+    </div>
+    <div style="background-color: rgb(196, 225, 250); border-radius: 20px; width: 50%; margin-left : 28%" >
+        <form (ngSubmit)="onSubmit()" style="margin: 0 auto;width: 500px; padding: 20px;">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required="true" [(ngModel)]="user.userName" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" maxlength="10" pattern="[0-9]{9}" class="form-control" id="phone" required="true" [(ngModel)]="user.phone" name="phone">
+              </div>
+              <div class="mb-3">
+                <label for="rol" class="form-label">Position</label>
+                <input type="text" class="form-control" id="rol"  required="true" [(ngModel)]="user.rol" name="rol">
+              </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" maxlength="16" class="form-control" id="password"  required="true" [(ngModel)]="user.password" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    
+</div>
