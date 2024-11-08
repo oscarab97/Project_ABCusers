@@ -1,0 +1,394 @@
+{
+    "menu": [
+        {
+            "sku": 6,
+            "product_name": "Jaeger Schnitzel",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 7,
+            "product_name": "Red Cabbage",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 8,
+            "product_name": "Sauerkraut",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 9,
+            "product_name": "Mashed Potatoes with Gravy",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 10,
+            "product_name": "Bratwurst",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 11,
+            "product_name": "Italian Braised Chicken",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 12,
+            "product_name": "Orzo Pasta",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 13,
+            "product_name": "Caponata",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 14,
+            "product_name": "Brussel Sprouts",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 15,
+            "product_name": "Cauliflower with chickpeas and yellow squash",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 16,
+            "product_name": "Buttered Chicken with creamy sauce",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 17,
+            "product_name": "Rice with Gravy",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 18,
+            "product_name": "Naan",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 19,
+            "product_name": "Tandoori Chicken with Cilantro and Cauliflower",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 20,
+            "product_name": "Konigsberger Klopse",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 21,
+            "product_name": "Brown Rice",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 22,
+            "product_name": "Soft Pretzle",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 23,
+            "product_name": "Spaetzle",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 24,
+            "product_name": "Flank Steak on Bed of Salad",
+            "category_id": 21,
+            "category_name": "Chefs Table"
+        },
+        {
+            "sku": 25,
+            "product_name": "Fried Fish",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 26,
+            "product_name": "Baked Fish with Crumbs",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 27,
+            "product_name": "Roasted Red Potatoes",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 28,
+            "product_name": "Corn on the Cob",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 29,
+            "product_name": "Coleslaw",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 30,
+            "product_name": "Macaroni and Cheese",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 31,
+            "product_name": "Africana Grain Bowl with Yellow Squash and Zucchini and tomato based sauce and fresh basil leaves",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 32,
+            "product_name": "Fried Baloney",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 33,
+            "product_name": "Hippeas Chickpea Puffs Vegan White Cheddar",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 34,
+            "product_name": "PopCorners Sweet and Salty Kettle Corn",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 35,
+            "product_name": "Tostitos Salsa Verde",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 36,
+            "product_name": "Miss Vickie's Sea Salt Original",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 37,
+            "product_name": "Doritos Spicy Sweet Chili",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 38,
+            "product_name": "Coca-Cola Original",
+            "category_id": 4,
+            "category_name": "Bottle Beverages"
+        },
+        {
+            "sku": 39,
+            "product_name": "Sprite Zero Surgar Lemon-Lime",
+            "category_id": 4,
+            "category_name": "Bottle Beverages"
+        },
+        {
+            "sku": 40,
+            "product_name": "Glaceau vitamin Water 0 Surgar Lemonade",
+            "category_id": 4,
+            "category_name": "Bottle Beverages"
+        },
+        {
+            "sku": 41,
+            "product_name": "Mountain Dew",
+            "category_id": 4,
+            "category_name": "Bottle Beverages"
+        },
+        {
+            "sku": 42,
+            "product_name": "BodyArmor Orange Mango",
+            "category_id": 4,
+            "category_name": "Bottle Beverages"
+        },
+        {
+            "sku": 43,
+            "product_name": "Larabar Apple Pie",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 44,
+            "product_name": "Kind Cranberry Almond",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 45,
+            "product_name": "Awake Dark Chocolate Bite",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 46,
+            "product_name": "Awake Peanut Butter Milk Chocolate Bite",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 47,
+            "product_name": "Awake Milk Chocolate Bite",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 48,
+            "product_name": "Awake Caramel Chocolate Bite",
+            "category_id": 9,
+            "category_name": "LG Snacks"
+        },
+        {
+            "sku": 50,
+            "product_name": "Sticky Bun",
+            "category_id": 8,
+            "category_name": "Pastry"
+        },
+        {
+            "sku": 52,
+            "product_name": "Pecan Bar",
+            "category_id": 8,
+            "category_name": "Pastry"
+        },
+        {
+            "sku": 53,
+            "product_name": "Cinnamon Roll",
+            "category_id": 8,
+            "category_name": "Pastry"
+        },
+        {
+            "sku": 54,
+            "product_name": "Chocolate Croissant",
+            "category_id": 8,
+            "category_name": "Pastry"
+        },
+        {
+            "sku": 55,
+            "product_name": "Cheesecake",
+            "category_id": 8,
+            "category_name": "Pastry"
+        },
+        {
+            "sku": 57,
+            "product_name": "Pho Grain Bowl - Hearty vegetable soup with noodles, lemon wedge, and fresh herbs",
+            "category_id": 18,
+            "category_name": "Asian"
+        },
+        {
+            "sku": 58,
+            "product_name": "Brathendl - Quarter Roasted Chicken with no sauce",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 59,
+            "product_name": "White Rice",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 60,
+            "product_name": "Green Beans",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 62,
+            "product_name": "Country Fried Steak",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 63,
+            "product_name": "Okra and Tomatoes",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 65,
+            "product_name": "Black-Eye Peas",
+            "category_id": 19,
+            "category_name": "The Main Dish"
+        },
+        {
+            "sku": 67,
+            "product_name": "Loaded Brautwurst",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 68,
+            "product_name": "Seasoned Potato Wedges",
+            "category_id": 23,
+            "category_name": "Zuhause"
+        },
+        {
+            "sku": 69,
+            "product_name": "Cheese Omelette",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 70,
+            "product_name": "Bacon",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 71,
+            "product_name": "Sausage Patties",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 72,
+            "product_name": "Scrambled Eggs",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 73,
+            "product_name": "Biscuits and Gravy",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 74,
+            "product_name": "Sausage Links",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 75,
+            "product_name": "Tater Tots",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        },
+        {
+            "sku": 76,
+            "product_name": "Yellow Grits",
+            "category_id": 25,
+            "category_name": "Main Dish Breakfast"
+        }
+    ]
+}

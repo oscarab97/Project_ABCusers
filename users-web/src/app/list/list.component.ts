@@ -5,10 +5,9 @@ import { UserService } from '../user.service';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrl: './list.component.css'
 })
 export class ListComponent {
-  userList:User[];
+  userList?:User[];
   constructor(private UserService:UserService){}
   ngOnInit(){
     this.getAll();
@@ -46,5 +45,14 @@ export class ListComponent {
     if(modalDiv !=null){
       modalDiv.style.display ='none'
     }
+  }
+  onExport(){
+    this.UserService.userExportExcel().subscribe(
+      {
+        next:(lamd)=>{
+          this.getAll();
+        },error:(error:any)=>{console.log(error)}
+      }
+    );
   }
 }

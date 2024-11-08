@@ -10,6 +10,7 @@ export class UserService {
 
   private url = "http://localhost:8080/api/v1/users";
   private url2 = "http://localhost:8080/api/v1/user";
+  private url3 = "http://localhost:8080/api/v1/user/export";
   constructor(private clientHttp:HttpClient) { }
   
   userList():Observable<User[]>{
@@ -20,5 +21,9 @@ export class UserService {
   } 
   userDelete(id:string):Observable<object>{
      return this.clientHttp.delete(`${this.url2}/${id}`);
+  }
+  userExportExcel():Observable<User[]>{
+     return this.clientHttp.get<User[]>(this.url3);
+
   }
 }

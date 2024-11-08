@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 import { User } from '../user';
 import { UserService } from '../user.service';
 import { Router } from '@angular/router';
-import { error } from 'console';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
 })
 export class RegisterComponent {
   user:User= new User();

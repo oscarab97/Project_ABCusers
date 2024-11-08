@@ -2,6 +2,11 @@
     <div class="container text-center">
         <h2>List of Users</h2>
     </div>
+    <div>
+      <button (click)="onExport()" type="button">Descargar Datos</button>
+      <a href="http://localhost:8080/api/v1/user/export">Exportar</a>
+
+    </div>
     <table class="table">
         <thead class="table-dark">
           <tr>

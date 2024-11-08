@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="container text-center">
+        <h2>List of Users</h2>
+    </div>
+    <div>
+      <button (click)="onExport()" type="button">Descargar Datos</button>
+    </div>
+    <table class="table">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Position</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of userList">
+            <th scope="row">{{user.id}}</th>
+            <td>{{user.userName}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.rol}}</td>
+            <td>        
+                <button class="btn btn-danger" (click)="openModal(user.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<div class="modal" tabindex="-1" id="modalRegister">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Delete User from Company</h5>
+          <button (click)="closeModal()" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure delete user?</p>
+        </div>
+        <div class="modal-footer">
+          <button (click)="closeModal()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button (click)="onDelete()" type="button" class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
